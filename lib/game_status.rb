@@ -59,6 +59,6 @@ WIN_COMBINATIONS = [
     if won?(board) || full?(board) || draw?(board)
       true
     else
-      return false
+      false
     end
   end
