@@ -38,6 +38,8 @@ WIN_COMBINATIONS = [
     false
   end
 
-  def full?
-    
+  def full?(board)
+    board.each do | b |
+      b.
+    end
   end
