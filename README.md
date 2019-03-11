@@ -17,6 +17,14 @@ states in Tic Tac Toe, including if the game has been `#won?`, if the game board
 is `#full?`, if the game has been a `#draw?`, if the game is `#over?`, and
 finally who the `#winner` is.
 
+`won?`
+`full?`
+`draw?`
+`won?`
+`won?`
+
+
+
 ## Instructions
 
 ### 1. Define WIN_COMBINATIONS
