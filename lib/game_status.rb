@@ -50,7 +50,7 @@ WIN_COMBINATIONS = [
       return true
     elsif !won?(board) && !full?(board)
       return false
-    else
+    elsif won?(board)
       return false
     end
   end
