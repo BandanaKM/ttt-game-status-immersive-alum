@@ -20,7 +20,7 @@ finally who the `#winner` is.
 `won?`
 `full?`
 `draw?`
-`won?`
+`over?`
 `won?`
 
 
