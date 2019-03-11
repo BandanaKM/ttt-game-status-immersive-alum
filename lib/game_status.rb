@@ -66,7 +66,7 @@ WIN_COMBINATIONS = [
   def winner(board)
     return_value = nil
     if won?(board)
-      retVal = board[won?(board)[0]]
+      return_value = board[won?(board)[0]]
     end
     return_value
   end
