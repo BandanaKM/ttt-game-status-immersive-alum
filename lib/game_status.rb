@@ -39,8 +39,8 @@ WIN_COMBINATIONS = [
   end
 
   def full?(board)
-    board.each do | b |
+    board.all do | b |
       b.strip!
-      b == "X"
+
     end
   end
