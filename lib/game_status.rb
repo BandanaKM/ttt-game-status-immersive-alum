@@ -40,6 +40,7 @@ WIN_COMBINATIONS = [
 
   def full?(board)
     board.each do | b |
-      b.
+      b.strip!
+      b == "X"
     end
   end
