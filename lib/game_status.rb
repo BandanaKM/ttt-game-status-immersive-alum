@@ -49,9 +49,9 @@ WIN_COMBINATIONS = [
     if !won?(board) && full?(board)
       return true
     elsif !won?(board) && !full?(board)
-      return false
+      false
     elsif won?(board)
-      return false
+      false
     end
   end
 
