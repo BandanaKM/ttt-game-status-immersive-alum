@@ -39,7 +39,7 @@ WIN_COMBINATIONS = [
   end
 
   def full?(board)
-    board.all do | b |
+    board.all? do | b |
       b.strip!
 
     end
