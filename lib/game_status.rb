@@ -64,9 +64,9 @@ WIN_COMBINATIONS = [
   end
 
   def winner(board)
-    retVal = nil
+    return_value = nil
     if won?(board)
       retVal = board[won?(board)[0]]
     end
     retVal
-  end 
+  end
