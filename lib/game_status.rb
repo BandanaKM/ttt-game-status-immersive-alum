@@ -37,6 +37,5 @@ def won(board)
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
 
-
   if posit
 end
