@@ -44,3 +44,6 @@ WIN_COMBINATIONS = [
       b == "X" || b == "O"
     end
   end
+
+  def draw?
+  end 
