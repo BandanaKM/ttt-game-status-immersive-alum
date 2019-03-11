@@ -62,3 +62,5 @@ WIN_COMBINATIONS = [
       false
     end
   end
+
+  def winner?()
