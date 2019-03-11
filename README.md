@@ -24,7 +24,6 @@ finally who the `#winner` is.
 `winner?`
 
 
-
 ## Instructions
 
 ### 1. Define WIN_COMBINATIONS
