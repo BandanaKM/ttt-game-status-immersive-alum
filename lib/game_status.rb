@@ -68,5 +68,5 @@ WIN_COMBINATIONS = [
     if won?(board)
       retVal = board[won?(board)[0]]
     end
-    retVal
+    return_value
   end
